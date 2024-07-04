@@ -130,7 +130,7 @@ namespace SerialToUSBCommunication
 
         public static void CheckIfUserWantsToStop(string input, Serial port)
         {
-            if ((input != "stop")||(input != "Stop"))
+            if ((input == "stop")||(input == "Stop"))
             {
                 Console.WriteLine("Ending Operation... It was a pleasure :)");
                 

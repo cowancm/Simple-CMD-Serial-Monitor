@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\InternProjectSerialComm_Vers2\\InternProjectSerialComm_Vers2\\MissionOperationControl.csproj": {}
+    "C:\\Users\\cowan\\Desktop\\internProj\\OperationControls\\InternProjectSerialComm_Vers2\\MissionOperationControl.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\InternProjectSerialComm_Vers2\\InternProjectSerialComm_Vers2\\MissionOperationControl.csproj": {
+    "C:\\Users\\cowan\\Desktop\\internProj\\OperationControls\\InternProjectSerialComm_Vers2\\MissionOperationControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\InternProjectSerialComm_Vers2\\InternProjectSerialComm_Vers2\\MissionOperationControl.csproj",
+        "projectUniqueName": "C:\\Users\\cowan\\Desktop\\internProj\\OperationControls\\InternProjectSerialComm_Vers2\\MissionOperationControl.csproj",
         "projectName": "MissionOperationControl",
-        "projectPath": "C:\\Projects\\InternProjectSerialComm_Vers2\\InternProjectSerialComm_Vers2\\MissionOperationControl.csproj",
+        "projectPath": "C:\\Users\\cowan\\Desktop\\internProj\\OperationControls\\InternProjectSerialComm_Vers2\\MissionOperationControl.csproj",
         "packagesPath": "C:\\Users\\cowan\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\InternProjectSerialComm_Vers2\\InternProjectSerialComm_Vers2\\obj\\",
+        "outputPath": "C:\\Users\\cowan\\Desktop\\internProj\\OperationControls\\InternProjectSerialComm_Vers2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cowan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "SharpDX.XInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "System.IO.Ports": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -55,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
